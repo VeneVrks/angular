@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>COVID és a gazdaság viszonya</title>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="covid.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container bg-fej" style="background-image: url(img/covid.jpg);">
+            <br/>
+            <br/>
+            <h1>COVID</h1>
+            <h3>Külkereskedelmi folyamatok 2020. január–május</h3>
+        </div>
+
+        <div class="row">
+            <div>
+
+                <p>
+                    2020 áprilisában és májusában nagymértékben visszaesett a külkereskedelmi teljesítmény, mely az árucsoportok és szolgáltatások széles körét érintették.<a href="https://koronavirus.gov.hu/" target="_blank">Tájékoztató oldal a koronavírusról</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-torzs colored">
+                <h3>Európai</h3>
+                <p>
+                    Az európai országok exportteljesítményét tekintve az elmúlt hónapok során a termék-külkereskedelem általános visszaesését láthattuk. A járvány terjedésének hatására különböző korlátozó intézkedések léptek hatályba, és közben a keresleti feltételek is jelentős mértékben romlottak, így a járvány negatív gazdasági hatásai – a jelenleg rendelkezésre álló nemzetközi adatok alapján – a márciusi és az áprilisi külkereskedelmi adatokban érhetők tetten. Az európai országok közül a legjelentősebb mértékben a dél-európaiak termékexportja esett vissza. A márciusi, éves alapon mért 13,6%-os mérséklődést áprilisban 40,7%-os visszaesés követte. A visegrádi országok termékexportja is érdemi csökkenést mutatott, áprilisban 35%-kal esett vissza.
+                </p>
+                <img class="img-fluid" src="img/europa.png" />
+            </div>
+            <div class="col-4 bg-torzs">
+                <h3>Világkereskedelem</h3>
+                <a>A világkereskedelem jelentős mértékben visszaesett</a>
+                <p>
+                    A világkereskedelem jelentős mértékben visszaesett „…2020 I. negyedévében a globális gazdasági folyamatok középpontjában a koronavírus okozta járvánnyal kapcsolatos intézkedések álltak. A járvány kiindulópontjának számító Kínában megtört a több évtizede tartó konjunktúra, és 2020 I. negyedévében 6,8%-kal csökkent a gazdaság teljesítménye. A világgazdaság legjelentősebb szereplőjének számító Egyesült Államokban 0,3%-ra lassult a növekedés üteme. A szűkebb környezetünket jelentő Európai Unióban (EU27) 2,6 %-kal csökkent a gazdaság teljesítménye.”
+                </p>
+                <img class="img-fluid" src="img/vilag.png" />
+                <a>Forrás: CPB Netherlands Bureau for Economic Policy Analysis, World Trade Monitor</a>
+            </div>
+            <div class="col-4 bg-torzs colored">
+                <h3>Magyar külkereskedelmi teljesítmény</h3>
+                <h6>A Covid–19-járvány negatív gazdasági hatásai</h6>
+                <p>
+                    A Covid–19-járvány negatív gazdasági hatásai:
+                    „…A magyar külkereskedelmi teljesítményt vizsgálva azt láthatjuk, hogy a járvány világméretű terjedése a hazai külkereskedelmet is rendkívüli mértékben visszavetette. A járvány világméretű terjedésének kezdetén (2020. február) még kiugró exportszintet és jelentős többletet eredményezett, azonban ezt követően a külkereskedelmi forgalom jelentős mértékben kezdett csökkeni. 2020. január–áprilisban a teljes magyar külkereskedelmi forgalom 6 milliárd euróval mérséklődött az előző év azonos időszakához mérten. A termékexport 3,4 milliárd euróval, a termékimport 2,6 milliárd euróval csökkent, a külkereskedelmi egyenleg pedig 738 millió euróval romlott az egy évvel korábbihoz viszonyítva.
+                </p>
+                <img class="img-fluid" src="img/magyar_egyenleg.png" />
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-torzs">
+                <h3>Europa</h3>
+                <p>
+                    <form>
+                        <div>
+                            <h6>A kivál asztott európai térségek adatai jelennek meg, havi bontásban.</h6>
+                            <p>Válassza ki, melyik jelentős szereplő adatait szeretné látni:</p>
+                            <select class="container">
+                                <option disabled>Válasszon régiót</option>
+                            </select>
+                            <button type="button" onclick="location.replace('europa.html')">Adatok</button>
+                        </div>
+                    </form>
+                </p>
+                </p>
+            </div>
+            <div class="col-4 bg-torzs colored">
+                <h3>Világkereskedelem</h3>
+                <p>A kiválasztott világgazdasági szereplő adatai jelennek meg, havi bontásban.</p>
+                <p>Válassza ki, melyik jelentős szereplő adatait szeretné látni:</p>
+                <select class="container">
+                    <option disabled>Válasszon régiót</option>
+                </select>
+                <button type="button" onclick="location.replace('vilagkereskedelem.html')">Küldés</button>
+            </div>
+            <div class="col-md-4 bg-torzs">
+                <h3>Magyarországi adatok.</h3>
+                <ul>
+                    <li>Export összesen: 354,560.79EUR</li>
+                    <li>Import összesen: 334,659.03 EUR</li>
+                    <li>Export és import egyenleg: 9,901.76 EUR</li>
+                    <li class="selected">Részletes adatok</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
