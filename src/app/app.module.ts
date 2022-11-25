@@ -4,11 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CrisisListComponent } from './crisis-list/crisis-list.component';
+import { MenuComponent } from './menu/menu.component';
+import { RegisterComponent } from './register/register.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CrisisListComponent
+    CrisisListComponent,
+    MenuComponent,
+    RegisterComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
