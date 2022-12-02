@@ -7,6 +7,7 @@ import { CrisisListComponent } from './crisis-list/crisis-list.component';
 import { MenuComponent } from './menu/menu.component';
 import { RegisterComponent } from './register/register.component';
 import { UserComponent } from './user/user.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UserComponent } from './user/user.component';
     CrisisListComponent,
     MenuComponent,
     RegisterComponent,
-    UserComponent
+    UserComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
